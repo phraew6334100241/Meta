@@ -1,5 +1,4 @@
 {
-  "homepage": "https://phraew6334100241.github.io/homepage",
   "name": "project-v1",
   "version": "0.1.0",
   "private": true,
@@ -35,8 +34,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeplocy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "predeplocy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
