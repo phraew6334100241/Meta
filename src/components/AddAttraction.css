@@ -1,0 +1,124 @@
+/* AddAttraction.css */
+
+/* Container for the form */
+.AddAttraction {
+  max-width: 800px; /* เพิ่มความกว้างสูงสุดของ form เพื่อการจัดวางที่ดีขึ้น */
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9; /* สีพื้นหลังของ form */
+  border-radius: 8px;
+}
+
+/* Heading style */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Link to admin page style */
+.LinkToAdmin {
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #343a40; /* สีพื้นหลังของลิงก์ไปยังหน้า Admin */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for link to admin page */
+.LinkToAdmin:hover {
+  background-color: #23272b; /* เปลี่ยนสีพื้นหลังเมื่อโฮเวอร์ลิงก์ */
+}
+
+/* Form section style */
+.information {
+  margin-top: 20px;
+}
+
+/* Form label style */
+.form-label {
+  font-weight: bold;
+  color: #555; /* สีข้อความบนฟอร์ม */
+}
+
+/* Form input style */
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+/* Form input focus style */
+.form-control:focus {
+  border-color: #218838; /* เปลี่ยนสีเส้นขอบของ input เมื่อได้รับการโฟกัส */
+}
+
+/* Success button style */
+.btn-success {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #28a745; /* สีปุ่มเมื่อสำเร็จ */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for success button */
+.btn-success:hover {
+  background-color: #218838; /* เปลี่ยนสีปุ่มเมื่อโฮเวอร์ */
+}
+
+/* Group 1 styling */
+.info {
+  background-color: #cff0ff; /* สีพื้นหลังของกลุ่ม 1 */
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+/* Group 2 styling */
+.imageAt {
+  background-color: #86d7fd; /* สีพื้นหลังของกลุ่ม 2 */
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+/* Group 3 styling */
+.NameAt {
+  background-color: #67C6E3; /* สีพื้นหลังของกลุ่ม 3 */
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+/* Group 4 styling */
+.Ar-location {
+  background-color: #378CE7; /* สีพื้นหลังของกลุ่ม 4 */
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+/* Group 5 styling */
+.Ar-marker {
+  background-color: #5356FF; /* สีพื้นหลังของกลุ่ม 5 */
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.head{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: xxx-large;
+  font-weight: lighter;
+}

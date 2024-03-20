@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  background-color: #f5f5f5; /* เปลี่ยนสีพื้นหลังเป็นสีอ่อนๆ */
+  color: #333; /* เปลี่ยนสีข้อความให้มืดขึ้น */
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin: 20px;
+}
+
+.data {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.data h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #000000; /* เปลี่ยนสีของหัวเรื่องให้สวยงาม */
+}
+
+.data img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* เพิ่มเงาให้รูปภาพ */
+}
+
+.im {
+  width: 100%; /* กำหนดความกว้างเท่ากับความกว้างของคอลัมน์ */
+  height: auto; /* ความสูงจะปรับตามอัตราส่วน */
+  max-width: 600px; /* กำหนดความกว้างสูงสุดของภาพ */
+  display: block; /* กำหนดให้รูปภาพแสดงเป็นบล็อก */
+  margin: 0 auto; /* จัดภาพตรงกลาง */
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75); /* เพิ่มเงาให้กับรูปภาพ */
+  transition: transform 0.3s ease; /* เพิ่มเอฟเฟ็กต์การเปลี่ยนขนาดของภาพ */
+}
+
+/* ขยายขนาดภาพเมื่อชี้เมาส์ */
+.im:hover {
+  transform: scale(1.1); /* ขยายขนาดภาพเป็น 1.1 เท่า */
+}
+
+/* หดลงขนาดภาพเมื่อไม่ได้ชี้เมาส์ */
+.im:not(:hover) {
+  transform: scale(1); /* ให้ภาพมีขนาดเท่าเดิม */
+}
+/* สไตล์ข้อความรายละเอียด */
+.d {
+  font-size: 16px; /* ขนาดตัวอักษร */
+  line-height: 1.5; /* ระยะห่างระหว่างบรรทัด */
+  font-weight: normal; /* น้ำหนักตัวอักษร */
+  font-style: normal; /* สไตล์ตัวอักษร (ปกติ) */
+  color: #333; /* สีข้อความ */
+}
+
+/* สไตล์ข้อความข้อมูลการบันทึก */
+.f {
+  font-size: 14px; /* ขนาดตัวอักษร */
+  line-height: 1.4; /* ระยะห่างระหว่างบรรทัด */
+  font-weight: normal; /* น้ำหนักตัวอักษร */
+  font-style: italic; /* สไตล์ตัวอักษร (ตัวเอียง) */
+  color: #666; /* สีข้อความ */
+}
+
+/* สไตล์ข้อความที่อยู่ */
+.g {
+  font-size: 14px; /* ขนาดตัวอักษร */
+  line-height: 1.4; /* ระยะห่างระหว่างบรรทัด */
+  font-weight: normal; /* น้ำหนักตัวอักษร */
+  font-style: normal; /* สไตล์ตัวอักษร (ปกติ) */
+  color: #000000; /* สีข้อความ */
+}
+
+
+
+
+/* ปุ่มก่อนหน้าและถัดไป */
+.next {
+  text-align: center; /* จัดให้อยู่ตรงกลาง */
+  margin-top: 10px; /* ระยะห่างด้านบนของปุ่ม */
+}
+
+.next button {
+  margin-right: 10px;
+  padding: 8px 16px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.next button:disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}
+
+
+.data p {
+  margin-bottom: 10px;
+  font-size: 1.1rem; /* เพิ่มขนาดตัวอักษรให้ใหญ่ขึ้น */
+}
+
+.map-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1;
+}
+
+.map {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.but {
+  background-color: #007bff;
+  padding: 10px 20px; /* เพิ่มความกว้างของปุ่ม */
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.but a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.but a:hover {
+  text-decoration: underline;
+  color: #fff; /* เปลี่ยนสีของลิงก์เมื่อโฮเวอร์ */
+}
+
+/* Navbar Styling (You might have a separate CSS file for Navbar) */
+/* Add your existing Navbar styles here or link your Navbar CSS file */
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .grid-container {
+      grid-template-columns: 1fr;
+  }
+}
+
+.next button {
+  padding: 10px 8px;
+  margin: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.next button:hover {
+  background-color: #515155; /* เปลี่ยนสีเมื่อโฮเวอร์ปุ่ม */
+}

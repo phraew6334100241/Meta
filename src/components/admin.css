@@ -1,0 +1,118 @@
+/* admin.css */
+
+/* Container for the list items */
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+  
+}
+
+/* Individual list item styles */
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease; /* Add a subtle animation on hover */
+  width: 250px; /* Adjust the width as needed */
+}
+
+.list:hover {
+  transform: scale(1.02);
+}
+
+.list h3 {
+  font-size: 1.5rem;
+  margin: 10px;
+  color: #333;
+}
+
+.list p {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.list img {
+  width: 100%;
+  height: auto;
+  max-width: 250px; /* Increase the max-width */
+  max-height: 200px; /* Increase the max-height */
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Action buttons (Edit and Delete) */
+.list .editbut,
+.list .deletbut {
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.list .editbut {
+  background-color: #ffcc00; /* Yellow for Edit button */
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.list .editbut:hover {
+  background-color: #7b6302; /* Darken the color on hover */
+}
+
+.list .deletbut {
+  background-color: #ff3333; /* Red for Delete button */
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.list .deletbut:hover {
+  background-color: #540101; /* Darken the color on hover */
+}
+
+ .deleteRe {
+  background-color: #fb0000; /* สีแดงเข้มสำหรับลบ */
+  color: white; /* สีข้อความ */
+  padding: 8px 16px; /* ขนาดของปุ่ม */
+  margin-top: 10px; /* ระยะห่างด้านบน */
+  border: none; /* ไม่มีเส้นขอบ */
+  border-radius: 5px; /* ขอบมนเรียบ */
+  cursor: pointer; /* เปลี่ยนเป็น cursor เมื่อนำเมาส์มาชี้ */
+  text-decoration: none; /* ไม่มีการเส้นใต้ข้อความ */
+  transition: background-color 0.3s; /* เพิ่มเอฟเฟกต์การเปลี่ยนสีพื้นหลัง */
+  margin:5px;
+}
+
+
+.crAt{
+  background-color: rgb(3, 217, 3); /* สีแดงเข้มสำหรับลบ */
+  color: white; /* สีข้อความ */
+  padding: 8px 16px; /* ขนาดของปุ่ม */
+  margin-top: 10px; /* ระยะห่างด้านบน */
+  border: none; /* ไม่มีเส้นขอบ */
+  border-radius: 5px; /* ขอบมนเรียบ */
+  cursor: pointer; /* เปลี่ยนเป็น cursor เมื่อนำเมาส์มาชี้ */
+  text-decoration: none; /* ไม่มีการเส้นใต้ข้อความ */
+  transition: background-color 0.3s; /* เพิ่มเอฟเฟกต์การเปลี่ยนสีพื้นหลัง */
+  margin:5px;
+}
+
+.crAt:hover{
+  background-color: rgb(0, 37, 0); /* เปลี่ยนสีพื้นหลังเมื่อเมาส์ชี้ไปที่ปุ่ม */
+}
+
+.logout-button{
+  background-color: rgb(38, 0, 251);
+}
+.logout-button:hover{
+  background-color: rgb(43, 5, 132);
+}

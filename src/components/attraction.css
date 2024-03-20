@@ -1,0 +1,117 @@
+
+.h2{
+  
+  font-size: xx-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ppo {
+  transition: transform 0.3s ease;
+
+}
+
+.ppo:hover,
+.ppo:focus {
+  transform: scale(1.1);
+}
+
+
+.full{
+  background-color: #ffffff;
+}
+.ppo{
+  background-color: #ffffff;
+  
+}
+
+h1 {
+  color: #000000;
+}
+  
+
+  /* Add styles for the Searching message */
+  p {
+    color: #555; /* Set the color of the message */
+  }
+  
+  /* Add styles for the Search Results section */
+
+  h2 {
+    color: #444; /* Set the color of the subheading */
+  }
+  
+  /* Add styles for the Card */
+  .Card {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+
+  }
+  
+  .list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  /* Add styles for the Rating stars */
+  .gre {
+    display: flex;
+    align-items: center;
+  
+    span {
+      color: #f39c12; /* Set the color of the stars */
+      font-size: 1.5em; /* Adjust the size of the stars */
+      margin-right: 4px; /* Add some spacing between stars */
+    }
+  }
+  
+  /* Add styles for the Write Review button */
+  button {
+    background-color: #0400ff; /* Set the background color of the button */
+    color: #fff; /* Set the text color of the button */
+    padding: 8px 16px; /* Add padding to the button */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+  }
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  
+  button:hover {
+    background-color: #c6c6c6; /* Change background color on hover */
+  }
+  
+  /* Add styles for Links */
+  a {
+    color: #3498db; /* Set the color of links */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Underline links on hover */
+  }
+  
+  .list{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin:5px;
+    flex: 1;
+  }
+  .gre{
+    margin: 5px;
+    margin-left: auto;
+    padding: 2px;
+  }
+  .ff{
+    color: #ffffff;
+    background-color: blue;
+  }

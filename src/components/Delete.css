@@ -1,0 +1,56 @@
+/* Delete.css */
+
+/* Link style */
+.LinkToAdmin {
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #343a40; /* สีพื้นหลังของลิงก์ */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px; /* เพิ่มช่องว่างด้านล่างของลิงก์ */
+  }
+  
+  /* Table style */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px; /* เพิ่มช่องว่างด้านล่างของตาราง */
+  }
+  
+  /* Table heading style */
+  .table th {
+    background-color: #1100ff; /* สีพื้นหลังส่วนหัวของตาราง */
+    color: #fff;
+    padding: 10px;
+  }
+  
+  /* Table data style */
+  .table td, .table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  /* Delete button style */
+  .DeletRe {
+    background-color: #dc3545; /* สีปุ่มลบ */
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for delete button */
+  .DeletRe:hover {
+    background-color: #c82333; /* เปลี่ยนสีปุ่มลบเมื่อโฮเวอร์ */
+  }
+  
+  /* Loading text style */
+  .dataRe tr td[colspan="5"] {
+    text-align: center;
+  }
+  

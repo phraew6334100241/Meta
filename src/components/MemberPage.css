@@ -1,0 +1,80 @@
+/* MemberPage.css */
+
+.member-page-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  padding-top: 10px;
+  background-color: #f9f9f9; /* สีพื้นหลังสีเทาอ่อน */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+  
+.user-info img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  box-shadow: 5px 5px rgb(6, 169, 223);
+}
+.user-info{
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 28px; /* ขนาดตัวอักษรใหญ่ขึ้น */
+  margin-bottom: 15px;
+}
+
+.user-info {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fff; /* สีพื้นหลังสีขาว */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-info p {
+  margin: 10px 0;
+  font-size: 18px; /* เพิ่มขนาดตัวอักษร */
+  color: #333; /* เปลี่ยนสีตัวอักษร */
+}
+
+.user-info p:first-child {
+  font-weight: bold; /* ทำข้อความแรกเป็นตัวหนา */
+}
+
+.user-info p:nth-child(even) {
+  background-color: #f4f4f4; /* สีพื้นหลังสลับ */
+  border-radius: 5px; /* ทำขอบเส้นโค้ง */
+  padding: 5px 10px; /* เพิ่มช่องว่างรอบข้อความ */
+}
+
+.user-info p:last-child {
+  color: #007bff; /* เปลี่ยนสีข้อความสุดท้าย */
+}
+
+
+.edit-profile-button {
+  text-align: center;
+}
+
+.edit-profile-button p {
+  margin-bottom: 15px;
+}
+
+.edit-profile-button button {
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.edit-profile-button button:hover {
+  background-color: #0056b3;
+}
